@@ -79,14 +79,16 @@ return vr;
 
 }
 }
-static double average(Vector arr []){
+
+public class Mavenproject1 {
+
+    static double average(Vector arr []){
     double sum=0;
 for(int i=0;i<arr.length;i++)
 sum+=(arr[i].magnitude()); 
     return sum/(arr.length);
    
 }
-public class Mavenproject1 {
  public static void main(String[] args) {
 
 System.out.println("lab2:) ");
