@@ -79,7 +79,16 @@ return vr;
 
 }
 }
+static double average(Vector arr []){
+    double sum=0;
+for(int i=0;i<arr.length;i++)
+sum+=(arr[i].magnitude()); 
+    return sum/(arr.length);
+   
+}
+public class Mavenproject1 {
  public static void main(String[] args) {
+
 System.out.println("lab2:) ");
 double resVect;
 Vector vectorArr[]=new Vector[10];
@@ -97,6 +106,6 @@ Vector vr3=new Vector();
 vr3=Vector.add(vr1, vr2);
 System.out.println("the x coordinate of this vector is"+vr3.getX()+"  and the y coordinate if this vector"+vr3.getY());
 
-
+ }
     
  }
